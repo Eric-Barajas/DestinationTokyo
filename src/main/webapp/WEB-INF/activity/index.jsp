@@ -11,7 +11,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Tacos</title>
+    <title>Tokyo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/main.css"> <!-- change to match your file/naming structure -->
     <script src="/webjars/jquery/jquery.min.js"></script>
@@ -75,7 +75,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
           <div class="container">
               <!-- Navbar brand -->
-              <a class="navbar-brand nav-link" target="_blank" href="/">
+              <a class="navbar-brand nav-link" href="/">
                   <strong>Tokyo</strong>
               </a>
               <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
@@ -93,7 +93,7 @@
                               rel="nofollow" target="_blank">Shopping</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="/" target="_blank">Anime</a>
+                          <a class="nav-link" href="/anime" >Anime</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="/" target="_blank">Things To Do</a>
@@ -186,7 +186,7 @@
                   <div class="col-md-6 gx-5 mb-4">
                       <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5"
                           data-mdb-ripple-color="light">
-                          <img src="https://mdbootstrap.com/img/new/slides/031.jpg" class="img-fluid" />
+                          <img src="/img/unsplash.jpg" class="img-fluid" />
                           <a href="#!">
                               <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                           </a>
@@ -194,17 +194,24 @@
                   </div>
 
                   <div class="col-md-6 gx-5 mb-4">
-                      <h4><strong>Facilis consequatur eligendi</strong></h4>
+                      <h4><strong>The capital of Japan</strong></h4>
                       <p class="text-muted">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequatur
-                          eligendi quisquam doloremque vero ex debitis veritatis placeat unde animi laborum
-                          sapiente illo possimus, commodi dignissimos obcaecati illum maiores corporis.
+                          Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit 
+                          skyscrapers to historic temples. The opulent Meiji Shinto Shrine is known for its 
+                          towering gate and surrounding woods. The Imperial Palace sits amid large public gardens. 
+                          The city's many museums offer exhibits ranging from classical art (in the Tokyo National 
+                          Museum) to a reconstructed kabuki theater (in the Edo-Tokyo Museum). ― Google
                       </p>
-                      <p><strong>Doloremque vero ex debitis veritatis?</strong></p>
+                      <p><strong>Population</strong></p>
                       <p class="text-muted">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque voluptate
-                          nesciunt laborum incidunt. Officia, quam consectetur. Earum eligendi aliquam illum
-                          alias, unde optio accusantium soluta, iusto molestiae adipisci et?
+                          Tokyo (/ˈtoʊkioʊ/;[7] Japanese: 東京, Tōkyō, [toːkʲoː] (listen)), officially the Tokyo 
+                          Metropolis (東京都, Tōkyō-to), is the capital and most populous city of Japan.[8] Formerly
+                           known as Edo, its metropolitan area (13,452 square kilometers or 5,194 square miles) is
+                            the most populous in the world, with an estimated 37.468 million residents as of 2018;
+                            [9] the city proper has a population of 13.99 million people.[4] Located at the head of
+                             Tokyo Bay, the prefecture forms part of the Kantō region on the central coast of Honshu,
+                              Japan's largest island. Tokyo serves as Japan's economic center and is the seat of both
+                               the Japanese government and the Emperor of Japan. - Wikipedia
                       </p>
                   </div>
               </div>
@@ -218,7 +225,7 @@
               <h4 class="mb-5"><strong>TOP 3</strong></h4>
 
               <div class="row">
-                  <div class="col-lg-4 col-md-12 mb-4">
+                  <div class="col-lg-4 col-md-6 mb-4">
                       <div class="card">
                           <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                               <img src="/img/studio-ghibli-donguri-kyowakoku-0408235.jpg" class="img-fluid" />
@@ -229,8 +236,8 @@
                           <div class="card-body">
                               <h5 class="card-title">Anime</h5>
                               <p class="card-text">
-                                  Some quick example text to build on the card title and make up the bulk of the
-                                  card's content.
+                                  The epicenter of anything and everything anime related. Starting from
+                                  anime to video games to collectibles and finally to cosplay.
                               </p>
                               <a href="/anime" class="btn btn-primary">Button</a>
                           </div>
@@ -248,8 +255,10 @@
                           <div class="card-body">
                               <h5 class="card-title">Food & Drinks</h5>
                               <p class="card-text">
-                                  Some quick example text to build on the card title and make up the bulk of the
-                                  card's content.
+                                  Japan is home to a multitude of delectable cuisines and it is no different
+                                  for the capital of Japan. In fact, Tokyo being one of the busiest cities in
+                                  the world it may be your best place to see what are the culinary skills that
+                                  Japan has to offer.
                               </p>
                               <a href="#!" class="btn btn-primary">Button</a>
                           </div>
@@ -267,8 +276,9 @@
                           <div class="card-body">
                               <h5 class="card-title">Shopping</h5>
                               <p class="card-text">
-                                  Some quick example text to build on the card title and make up the bulk of the
-                                  card's content.
+                                  Japan has a very unique style and Tokyo's fashion sense is adorned all around
+                                  the world. Here you can check out there traditonal wears such as a yukata and
+                                  kimono, vintage clothes, and finally what's new in the Tokyo fashion trend.
                               </p>
                               <a href="#!" class="btn btn-primary">Button</a>
                           </div>
