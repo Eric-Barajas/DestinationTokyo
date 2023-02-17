@@ -47,6 +47,14 @@ public class ActivityController {
 			return "/activity/anime.jsp";
 		}
 	
+	@GetMapping("/tester")
+	public String tester(
+			@ModelAttribute("newUser") User emptyUser,
+			@ModelAttribute("newLogin") LoginUser emptyLoginUser
+		) {
+			return "/activity/tester.jsp";
+		}
+	
 	@GetMapping("/animehotspots")
 	public String everythinganime(
 			@ModelAttribute("newUser") User emptyUser,

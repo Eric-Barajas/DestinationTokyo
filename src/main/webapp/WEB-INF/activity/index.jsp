@@ -89,11 +89,10 @@
                           <a class="nav-link" aria-current="page" href="#intro">Food & Drinks</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="/"
-                              rel="nofollow" target="_blank">Shopping</a>
+                          <a class="nav-link" href="/tester">Shopping</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="/anime" >Anime</a>
+                          <a class="nav-link" href="/anime">Anime</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="/" target="_blank">Things To Do</a>
