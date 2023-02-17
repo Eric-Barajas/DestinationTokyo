@@ -348,7 +348,7 @@
     <!-- End your project here-->
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCmPee1r3P9FnI_GRJYt9pkMi_laICHXA"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=${API_KEY}"></script>
     
     <script src="/js/googlemapsapi.js"></script>
     
